@@ -1,0 +1,4 @@
+# Menolak akses dan mengarahkan ke halaman utama (root)
+Order Deny,Allow
+Deny from all
+RewriteRule ^.*$ / [L,R=301]
